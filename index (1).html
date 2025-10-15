@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Emmanuel Olusanmi - Wallpaper Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Olusanmi Website</h1>
+        <p>Professional Freelancer | Wallpaper Designer</p>
+        <div class="visitor-counter">
+            <span>Total Visitors: <span id="visitorCount">0</span></span>
+        </div>
+    </header>
+
+    <section class="intro">
+        <h2>About Me</h2>
+        <p>My name is Olusanmi Emmanuel, I was born on the 2nd of June 2009. I'm from Nigeria, Osun State, currently living in Lagos State. I'm a beginner at freeCodeCamp but also doing practical work with what I've learned.</p>
+        <p>This site showcases my wallpaper collection and strengthens my freelance portfolio.</p>
+        <p><strong>Site created: 3rd September 2024</strong></p>
+    </section>
+
+    <nav class="category-nav">
+        <button onclick="showCategory('all')" class="active">All Wallpapers</button>
+        <button onclick="showCategory('lamborghini')">Lamborghini</button>
+        <button onclick="showCategory('sports')">Sports Cars</button>
+        <button onclick="showCategory('anime')">Anime</button>
+        <button onclick="showCategory('danger')">Don't Touch</button>
+        <button onclick="showCategory('neon')">Neon/Live</button>
+        <button onclick="showCategory('premium')">Premium 💎</button>
+    </nav>
+
+    <div class="gallery-container">
+        <h2>Free Wallpapers</h2>
+        <div class="gallery" id="freeGallery"></div>
+    </div>
+
+    <div class="premium-section">
+        <h2>Premium Wallpapers 💎</h2>
+        <p class="premium-info">Unlock exclusive high-quality wallpapers for a small fee</p>
+        <div class="gallery" id="premiumGallery"></div>
+    </div>
+
+    <footer>
+        <p>© 2024 Emmanuel Olusanmi | Growing Income Through Quality Content</p>
+        <p>Contact me for freelance opportunities</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
